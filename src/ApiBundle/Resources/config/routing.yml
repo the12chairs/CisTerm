@@ -1,0 +1,4 @@
+api_homepage:
+    type: rest
+    resource CisTerm\ApiBundle\Controller\ApiController
+    defaults: { _controller: ApiBundle:Api:index }
